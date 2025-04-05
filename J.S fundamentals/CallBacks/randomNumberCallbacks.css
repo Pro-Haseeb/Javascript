@@ -1,0 +1,66 @@
+/* Page Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input Field */
+  input#find {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  /* Button */
+  button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #0072ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e6f0ff;
+    color: #003b80;
+  }
+  
+  /* Display Paragraph */
+  #display {
+    margin-top: 30px;
+    background-color: #ffffff;
+    color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
