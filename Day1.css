@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100vw;   
+    height: 100vh;
+
+   box-sizing: border-box;
+    /* We have to set these Width and Height of Body and Html tag by Default 100 Always Remember try to use vh, vw */
+}
+
+
+
+.head{
+    display: flex;   /* display=inline,inline-block,block,FLEX */
+    width: 99vw;
+    justify-content: space-between;
+   background-color: black;
+   color: aqua;
+   height: 10vh;
+}
+
+.logoheading{
+    font-size: 25px;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-weight: 900;
+}
+
+.navbar{
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    margin-top: 3.5vh;
+    font-weight: 900;
+    
+}
+
+.cssdiv{
+    color: aqua;
+}
+
+.font{
+    /* Html or Body Default Tag Font size is 16px */
+    /* type of font size
+    
+    1.Px
+    2. Rem= 1*htmltag
+    3. em = 1* parent tag
+    4. vw = View width (Changes according to Device width on which website is running)
+    5. vh = View height (Changes according to Device height on which website is running)
+
+    6. % = According to Parent tag  
+    */
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.margin{
+   margin-top: 20vh;
+   margin-bottom: 20vh;
+   margin-right: 20vw;
+   margin-left: 20vw;
+
+   /* margin: top right bottom left; */
+}
+
+.padding{
+   padding-top:20vh ;
+   padding-left: 20vw;
+   padding-right: 20vw;
+   padding-bottom: 20vh;
+}
+
+.display{
+    display: flex;
+    /* display: inline;
+    display: inline-block;
+    display: block; */
+}
+
+.relatedtoDisplay{
+    display: flex;
+    width: 20vw;
+    height: 40vh;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.flexDirection{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 40vh;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    
+}
+
+.position{
+    /* position: static; */
+    position: relative;
+    /* position: fixed;
+    position: absolute; */
+     /* top: 5vh;
+     right: 5vh;
+     left: 5vh;
+     bottom: 5vh; */
+
+}
+
+.boxSizing{
+    /* position: relative; */
+    box-sizing: content-box;
+    width: 10vw;
+    border:1px solid black;
+    padding-left: 20vw;
+}

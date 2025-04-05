@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.item1,.item2,.item3,.item4{
+    position: relative;
+    top: 10vh;
+    display: block;
+    width: 20vw;
+    left: 45vw;
+    font-size: 30px;
+
+}
+
+.item1{
+    color: aqua;
+    background-color: black;
+    position: relative;
+    top: 10vh;
+}
+
+.item2{
+    color: green;
+    background-color: purple;
+    position: relative;
+    top: 12vh;
+}
+
+.item3{
+    color: yellow;
+    background-color: brown;
+    position: relative;
+    top: 14vh;
+}
+
+.item4{
+    color: purple;
+    background-color: blue;
+    position: relative;
+    top: 16vh;
+}

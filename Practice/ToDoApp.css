@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    position: relative;
+    left: 40vw;
+    width: 30vw;
+    top: 10vh;
+}
+
+.Add{
+    position: relative;
+    top: 3vh;
+}
+
+.toDo{
+    position: relative;
+    top: 9vh;
+    right: 8vw;
+}
+
+.delete{
+    position: relative;
+    top: 12vh;
+    left: 3vh;
+}
+
+.list{
+    position: relative;
+    top: 16vh;
+}
+
+.addButton{
+    position: relative;
+    top: 6.5vh;
+    left: 10vw;
+}
