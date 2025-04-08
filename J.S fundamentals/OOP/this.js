@@ -55,5 +55,6 @@ class Person {
   }
   
   const p1 = new Person("Haseeb", 1000);
+  const p2 = new Person("Ali", 1000);
   p1.greet();
   
