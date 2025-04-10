@@ -17,5 +17,12 @@ class  Car{
 
     startCar(){
        this.#InjectingFuel();
+       this.#IngEngine()
+
+       console.log(this.#carName + " Car Engine Started :-)")
     }
 }
+
+let obj = new Car("Kia Sportage");
+
+obj.startCar();
