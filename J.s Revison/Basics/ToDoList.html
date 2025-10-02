@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="head">
+        <h1>To Do List</h1>
+        <label for="add" class="add" >Add a Product: </label>
+        <input type="text" class="addproduct"  >
+        <button type="submit" name="add" onclick="submitFunction()">Add</button>
+         <br>
+
+        <label for="remove" class="remove">Remove Product</label>
+        <input type="text" class="removeProduct">
+        <button type="submit" name="remove" onclick="removeFunction()">Remove</button>
+
+    </div>
+
+    <div class="list">
+     <ol>
+
+     </ol>
+    </div>
+    <script src="ToDoList.js"></script>
+</body>
+</html>
