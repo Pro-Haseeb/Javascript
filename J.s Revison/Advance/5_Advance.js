@@ -142,3 +142,58 @@ const paymentObj = new payment;
 paymentObj.pay(10000).then((message)=>{
     console.log(message)
 });
+
+
+// Polymorphism – “Many Forms”
+
+// Definition:
+// Polymorphism ka matlab hota hai "ek function, class, ya method jo alag-alag forms (behaviour) le sakta hai"
+//  Matlab same name, lekin different functionality depending on the context.
+
+//Types of polymorphism
+
+// 1 Compile-time Polymorphism (Static Binding)
+// Ye wo hoti hai jahan method ka call compile time pe hi fix ho jata hai.
+//  Matlab program ko pehle se pata hota hai kis function ko call karna hai.
+
+// 2 Run-time Polymorphism (Dynamic Binding)
+// Jab method ka call runtime pe decide hota hai,
+// matlab actual object (child class ya parent) decide karta hai
+// ke kaunsa method chalega.
+// Ye method overriding ke through hoti hai.
+
+
+class animal {
+    speak(){
+        console.log("Every Animal can make some voice");
+    }
+}
+
+class Dog extends animal {
+    speak(){
+        console.log("Dog can bark");
+    }
+}
+
+class cat extends animal {
+    speak(){
+        console.log("Cat say Meow");
+    }
+}
+
+class bird extends animal {
+    speak(){
+        console.log("Bird can also say something");
+    }
+}
+
+
+const animalObj = new animal;
+const dog = new Dog;
+const Cat = new cat;
+const Bird = new bird;
+
+animalObj.speak();
+dog.speak();
+Cat.speak();
+Bird.speak();
